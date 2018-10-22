@@ -46,7 +46,7 @@ def create_lightchecker(name):
     Args:
         name(String): Name of the object
     Returns:
-        Object
+        lightchecker
     '''
     lightchecker = pm.polySphere(name='{0}:{1}_geo'.format(NAMESPACE, name), radius=7,
                                  subdivisionsX=60, subdivisionsY=40,
